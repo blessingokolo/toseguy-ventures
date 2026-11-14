@@ -624,3 +624,17 @@ nav ul li a:hover {
     background: #071b30;
     color: white;
 }
+
+
+
+/* SMALL PHONE NAVIGATION FIX */
+@media screen and (max-width: 480px) {
+    nav ul {
+        gap: 8px;
+        padding: 0;
+    }
+
+    nav ul a {
+        font-size: 13px;
+    }
+}
