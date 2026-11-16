@@ -8,14 +8,14 @@
 
 <!-- SEO SETTINGS -->
 
-<meta name="description" content="Toseguy Ventures offers quality flex banner printing, PVC tarpaulins, carpentry accessories and general merchandise in Mushin, Lagos, Nigeria. Quality products, great value.">
+<meta name="description" content="Toseguy Ventures provides quality flex banner printing, PVC tarpaulin, carpentry accessories and general merchandise in Mushin, Lagos. Request a quote today.">
 
 <meta name="author" content="Toseguy Ventures">
 
 <meta name="robots" content="index, follow">
 
-<title>Toseguy Ventures | Printing, Carpentry & General Merchandise in Lagos</title>
-    <link rel="stylesheet" href="style.css">
+<title>Toseguy Ventures | Flex Banner Printing, PVC Tarpaulin & General Merchandise in Lagos</title>    <link rel="stylesheet" href="style.css">
+<link rel="canonical" href="https://toseguyventures.com/">
 </head>
 
 <body>
@@ -310,41 +310,45 @@
 
     <p>Tell us what you need, and we'll get back to you.</p>
 
-    <form id="enquiryForm">
 
-        <input type="text"
-               placeholder="Your Full Name"
-               required>
+<form id="enquiryForm">
 
-        <input type="tel"
-               placeholder="Your Phone Number"
-               required>
+    <label for="customerName">Full Name</label>
+    <input type="text" id="customerName" placeholder="Enter your full name" required>
 
-        <input type="email"
-               placeholder="Your Email Address"
-               required>
+    <label for="customerPhone">Phone Number</label>
+    <input type="tel" id="customerPhone" placeholder="Enter your phone number" required>
 
-        <select required>
-            <option value="">Select a Product or Service</option>
-            <option>Flex Banner Printing</option>
-            <option>PVC Tarpaulin</option>
-            <option>Carpentry Accessories</option>
-            <option>General Merchandise</option>
-        </select>
+    <label for="customerEmail">Email Address</label>
+    <input type="email" id="customerEmail" placeholder="Enter your email address" required>
 
-        <input type="number"
-               placeholder="Quantity Required"
-               min="1"
-               required>
+    <label for="product">Product or Service</label>
+    <select id="product" required>
+        <option value="">Select a Product or Service</option>
+        <option>Flex Banner Printing</option>
+        <option>PVC Tarpaulin</option>
+        <option>Carpentry Accessories</option>
+        <option>General Merchandise</option>
+    </select>
 
-        <textarea
-            placeholder="Tell us more about your request"
-            rows="5">
-        </textarea>
+    <label for="quantity">Quantity Required</label>
+    <input type="number" id="quantity" placeholder="Enter quantity" min="1" required>
 
-        <button type="submit">Submit Enquiry</button>
+    <label for="specifications">Product Specifications</label>
+    <textarea id="specifications" placeholder="Enter size, dimensions, material, colour or other specifications" rows="4"></textarea>
 
-    </form>
+    <label for="deliveryLocation">Delivery Location</label>
+    <input type="text" id="deliveryLocation" placeholder="Enter delivery address or location">
+
+    <label for="productImage">Upload Product Reference Image (Optional)</label>
+    <input type="file" id="productImage" accept="image/*">
+
+    <label for="message">Additional Information</label>
+    <textarea id="message" placeholder="Tell us more about your request" rows="4"></textarea>
+
+    <button type="submit">Request a Quote</button>
+
+</form>
 
 </div>
 
