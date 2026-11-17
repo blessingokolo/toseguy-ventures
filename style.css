@@ -229,11 +229,11 @@ nav ul li a:hover {
     color: #e5a900;
 }
 
-.about-content > p {
+.about-content p {
     color: #555555;
-    font-size: 17px;
-    line-height: 1.8;
-    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 24px;
 }
 
 .about-values {
