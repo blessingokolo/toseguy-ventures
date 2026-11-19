@@ -57,7 +57,7 @@ nav ul li a:hover {
 /* HERO SECTION */
 
 .hero {
-    min-height: 550px;
+    min-height: 420px;
     background: linear-gradient(
         120deg,
         #071b30,
