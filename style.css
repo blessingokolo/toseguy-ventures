@@ -821,3 +821,138 @@ nav ul li a {
 .nav-links a:hover {
     color: #ffbd00;
 }
+
+/* ===== NEW TOSEGUY VENTURES HOMEPAGE DESIGN ===== */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #ffffff;
+    color: #071b30;
+}
+
+header {
+    background: #071b30;
+    padding: 20px 5%;
+    border-bottom: 2px solid #ffbd00;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.brand-logo {
+    background: #ffbd00;
+    color: #071b30;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.brand-text h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.brand-text h2 span {
+    color: #ffbd00;
+}
+
+.brand-text p {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin: 5px 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ffbd00;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero {
+    min-height: 500px;
+    background: linear-gradient(120deg, #071b30, #12385b);
+    color: white;
+    padding: 60px 5%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    font-weight: bold;
+    margin: 20px 0;
+    color: white;
+}
+
+.hero h1 span {
+    color: #ffbd00;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #eeeeee;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.hero-buttons a {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-buttons .quote-btn {
+    background: #ffbd00;
+    color: #071b30;
+}
+
+.hero-buttons .whatsapp-btn {
+    border: 2px solid white;
+    color: white;
+}
+
+.hero-buttons a:hover {
+    transform: translateY(-3px);
+}
