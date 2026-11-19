@@ -752,3 +752,72 @@ nav ul li a {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+
+/* TOSEGUY VENTURES BRAND HEADER */
+
+.main-nav {
+    background: #071b30;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-logo {
+    width: 48px;
+    height: 48px;
+    background: #ffbd00;
+    color: #071b30;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 900;
+    box-shadow: 0 3px 10px rgba(255, 189, 0, 0.25);
+}
+
+.brand-text h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.brand-text h2 span {
+    color: #ffbd00;
+}
+
+.brand-text p {
+    color: #ffbd00;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    margin: 5px 0 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffbd00;
+}
