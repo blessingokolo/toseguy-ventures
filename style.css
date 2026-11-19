@@ -1660,3 +1660,54 @@ select:focus-visible {
         min-height: auto;
     }
 }
+
+/* ===== IMPROVED CONTACT SECTION LAYOUT ===== */
+
+.contact-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.contact-info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.contact-item {
+    min-height: 250px;
+    padding: 30px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-item h3 {
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.contact-item p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 15px;
+    }
+
+    .contact-info {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .contact-item {
+        min-height: auto;
+        padding: 25px;
+    }
+}
