@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carpentry Accessories | Toseguy Ventures</title>
+
+    <meta name="description" content="Shop carpentry accessories from Toseguy Ventures. Quality materials for carpenters, retailers, wholesalers and businesses. Contact us for quotations.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .product-page {
+            padding: 50px 8%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .product-header {
+            background: #071b30;
+            color: white;
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .product-header h1 {
+            color: #ffbd00;
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .product-header p {
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        .product-page h2 {
+            color: #071b30;
+            margin-bottom: 20px;
+        }
+
+        .product-page p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .carpentry-product-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .carpentry-product-gallery img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .product-applications {
+            background: #f5f7fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 35px 0;
+        }
+
+        .product-applications ul {
+            line-height: 2;
+            padding-left: 25px;
+        }
+
+        .product-button {
+            display: inline-block;
+            background: #ffbd00;
+            color: #071b30;
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .product-button:hover {
+            background: #e6aa00;
+        }
+
+        .back-home {
+            display: inline-block;
+            margin-top: 30px;
+            color: #071b30;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .product-header h1 {
+                font-size: 28px;
+            }
+
+            .carpentry-product-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .carpentry-product-gallery img {
+                height: 160px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .carpentry-product-gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .carpentry-product-gallery img {
+                height: 220px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="product-header">
+        <h1>Carpentry Accessories</h1>
+
+        <p>
+            Quality carpentry accessories and materials for professionals,
+            retailers, wholesalers and businesses. Toseguy Ventures supplies
+            products to support carpentry work and everyday business needs.
+        </p>
+    </header>
+
+    <main class="product-page">
+
+        <section>
+            <h2>About Our Carpentry Accessories</h2>
+
+            <p>
+                At Toseguy Ventures, we supply carpentry accessories for
+                carpenters, furniture makers, retailers, wholesalers and
+                individuals looking for quality materials.
+            </p>
+
+            <p>
+                Whether you need materials for your projects, business supply
+                or wholesale purchase, we are available to assist with your
+                enquiries and quotations.
+            </p>
+
+            <p>
+                Contact us to enquire about available products, quantities
+                and pricing.
+            </p>
+        </section>
+
+        <section>
+            <h2>Carpentry Accessories Gallery</h2>
+
+            <div class="carpentry-product-gallery">
+
+                <a href="images/carpentry.jpg" target="_blank">
+                    <img src="images/carpentry.jpg"
+                         alt="Carpentry accessories at Toseguy Ventures">
+                </a>
+
+                <a href="images/carpentry%20bulk.jpeg" target="_blank">
+                    <img src="images/carpentry%20bulk.jpeg"
+                         alt="Bulk carpentry accessories">
+                </a>
+
+                <a href="images/carpentry%20nails.jpeg" target="_blank">
+                    <img src="images/carpentry%20nails.jpeg"
+                         alt="Carpentry nails and accessories">
+                </a>
+
+                <a href="images/carpentry%20stock.jpeg" target="_blank">
+                    <img src="images/carpentry%20stock.jpeg"
+                         alt="Carpentry accessories stock">
+                </a>
+
+            </div>
+        </section>
+
+        <section class="product-applications">
+            <h2>Who We Serve</h2>
+
+            <ul>
+                <li>Carpenters and furniture makers</li>
+                <li>Retailers and shop owners</li>
+                <li>Wholesalers and bulk buyers</li>
+                <li>Construction and workshop businesses</li>
+                <li>Individuals and project owners</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Request a Quotation</h2>
+
+            <p>
+                Contact Toseguy Ventures today to enquire about carpentry
+                accessories, product availability, quantities and prices.
+            </p>
+
+            <a class="product-button"
+               href="https://wa.me/2348111973288?text=Hello%20Toseguy%20Ventures%2C%20I%20would%20like%20to%20enquire%20about%20carpentry%20accessories."
+               target="_blank">
+                Request a Quote on WhatsApp
+            </a>
+        </section>
+
+        <a class="back-home" href="index.html">
+            ← Back to Homepage
+        </a>
+
+    </main>
+
+</body>
+</html>
