@@ -1053,3 +1053,19 @@ header {
     font-size: 16px;
     border-radius: 8px;
 }
+
+/* HERO LAYOUT SPACING */
+
+.hero {
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-images {
+    flex: 1;
+    max-width: 550px;
+}
