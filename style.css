@@ -1761,3 +1761,31 @@ select:focus-visible {
 .section-heading {
     margin-bottom: 35px;
 }
+
+
+/* FORCE CONTACT SECTION TO USE MORE WIDTH */
+
+.contact-container {
+    max-width: 1400px !important;
+    width: 100% !important;
+}
+
+.contact-info {
+    width: 100% !important;
+}
+
+.contact-grid {
+    width: 100% !important;
+    grid-template-columns: 1fr 1.5fr 1fr !important;
+    gap: 30px !important;
+}
+
+.contact-item {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact {
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+}
