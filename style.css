@@ -17,6 +17,9 @@ body {
 header {
     background-color: #071b30;
     padding: 20px 8%;
+        position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 /* NAVIGATION BAR */
