@@ -1599,3 +1599,64 @@ select:focus-visible {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* ===== IMPROVED CONTACT SECTION ===== */
+
+.contact-section {
+    width: 100%;
+    padding: 60px 5%;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.contact-card {
+    min-height: 220px;
+    padding: 30px;
+    border-radius: 15px;
+    background: #ffffff;
+    border-bottom: 4px solid #ffbd00;
+    box-shadow: 0 8px 25px rgba(7, 27, 48, 0.12);
+}
+
+.contact-card h3 {
+    font-size: 22px;
+    color: #ffbd00;
+    margin-bottom: 20px;
+}
+
+.contact-card p,
+.contact-card a {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #071b30;
+}
+
+.contact-card a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-card a:hover {
+    color: #ffbd00;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-card {
+        min-height: auto;
+    }
+}
