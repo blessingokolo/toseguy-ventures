@@ -2348,3 +2348,47 @@ select:focus-visible {
 @media (max-width: 700px) {
   .site-header { flex-direction: column; gap: 12px; }
 }
+
+
+/* ===== MOBILE FOOTER ALIGNMENT ===== */
+
+@media (max-width: 800px) {
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: left;
+        gap: 35px;
+    }
+
+    .footer-col {
+        text-align: left;
+    }
+
+    .footer-col h4 {
+        text-align: left;
+    }
+
+    .footer-col h4::after {
+        left: 0;
+        transform: none;
+    }
+
+    .footer-col p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer-col ul {
+        text-align: left;
+    }
+
+    .contact-list li {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer-bottom {
+        justify-content: center;
+        text-align: center;
+    }
+}
