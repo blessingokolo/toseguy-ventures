@@ -2333,3 +2333,18 @@ select:focus-visible {
         gap: 15px;
     }
 }
+
+
+
+.site-header {
+  display: flex;
+  justify-content: space-between; /* logo left, nav right */
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  gap: 24px;
+}
+@media (max-width: 700px) {
+  .site-header { flex-direction: column; gap: 12px; }
+}
